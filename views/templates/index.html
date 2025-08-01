@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={{ url_for('static', filename='css/style.css' ) }}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../static/imgs/Fotodoperfil.jpg" type="image/x-icon">
+    <title>Loja E-Commerce</title>
+</head>
+
+<body>
+    <header id="header">
+        <section id="top-header" class="intern-container">
+            <div id="logo">
+                <img src="../static/imgs/Fotodoperfil.jpg" alt="#" id="logo-img-header-top">
+            </div>
+        </section>
+    </header>
+    <section id="bottom-header" class="intern-container">
+        <form id="search-form-header" enctype="multipart/form-data">
+            <input type="search" name="search-instr" placeholder="Search" id="search-instr">
+        </form>
+        <aside>
+            <ul>
+                <li><i></i><a href="/helps">Precisa de Ajuda?</a></li>
+                <li><i></i><a href="/myaccount">Minha Conta</a></li>
+                <li><i></i><a href="/mycart">Meu Carrinho</a></li>
+            </ul>
+        </aside>
+    </section>
+    <nav id="navigator-header">
+        <ul>
+            <li><a href="/teclas">Teclas</a></li>
+            <li><a href="/cordas">Cordas</a></li>
+            <li><a href="/drums">Bateria / Percussão</a></li>
+            <li><a href="/audio">Áudio</a></li>
+            <li><a href="/sopro">Sopro</a></li>
+            <li><a href="/encomenda">Produtos sob encomendas</a></li>
+            <li><a href="/ofertas">Ofertas</a></li>
+            <li><a href="/others">Outras Categorias</a></li>
+        </ul>
+    </nav>
+    <h1 class="title-h1">Sua Loja On-line</h1>
+</body>
+
+</html>
